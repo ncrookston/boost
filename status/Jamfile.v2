@@ -61,8 +61,10 @@ run-tests libs :
     bind/test                   # test-suite bind
     chrono/test                 # test-suite chrono
     circular_buffer/test        # test-suite circular_buffer
+    compute/test                # test-suite compute
     concept_check               # test-suite concept_check
     config/test                 # test-suite config
+    container/bench             # test-suite container benchmarks
     container/example           # test-suite container_example
     container/test              # test-suite container_test
     context/test                # test-suite context
@@ -76,6 +78,7 @@ run-tests libs :
     date_time/test              # test-suite date_time
     detail/test                 # test-suite detail
     disjoint_sets               # test-suite disjoint_sets
+    dll/test                    # test-suite dll
     dynamic_bitset              # test-suite dynamic_bitset
     endian/test                 # test-suite endian
     exception/test
@@ -96,6 +99,7 @@ run-tests libs :
     gil/test                    # test-suite gil
     graph/test                  # test-suite graph
     graph_parallel/test         # test-suite graph/parallel
+    hana/test                   # test-suite hana
     heap/test                   # test-suite heap
     icl/test                    # test-suite icl
     integer/test                # test-suite integer
@@ -176,7 +180,9 @@ run-tests libs :
     utility/test                # test-suite utility
     uuid/test                   # test-suite uuid
     variant/test                # test-suite variant
+    vmd/test                    # test-suite vmd
     wave/test/build             # test-suite wave
+    winapi/test                 # test-suite winapi
     xpressive/test              # test-suite xpressive
     ;
 
