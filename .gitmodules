@@ -489,11 +489,11 @@
 [submodule "sort"]
 	path = libs/sort
 	url = git@github.com:boostorg/sort.git
-	branch = master
+	fetchRecurseSubmodules = on-demand
 [submodule "convert"]
 	path = libs/convert
 	url = git@github.com:boostorg/convert.git
-	branch = develop
+	fetchRecurseSubmodules = on-demand
 [submodule "endian"]
 	path = libs/endian
 	url = git@github.com:boostorg/endian.git
@@ -505,6 +505,7 @@
 [submodule "dll"]
 	path = libs/dll
 	url = git@github.com:boostorg/dll.git
+	fetchRecurseSubmodules = on-demand
 [submodule "compute"]
 	path = libs/compute
 	url = git@github.com:boostorg/compute.git
@@ -512,3 +513,8 @@
 [submodule "libs/hana"]
 	path = libs/hana
 	url = git@github.com:boostorg/hana.git
+	fetchRecurseSubmodules = on-demand
+[submodule "libs/metaparse"]
+	path = libs/metaparse
+	url = git@github.com:boostorg/metaparse.git
+	fetchRecurseSubmodules = on-demand
