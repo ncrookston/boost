@@ -212,7 +212,7 @@
 	fetchRecurseSubmodules = on-demand
 [submodule "iostreams"]
 	path = libs/iostreams
-	url = git@github.com:boostorg/iostreams.git
+	url = git@github.com:ncrookston/iostreams.git
 	fetchRecurseSubmodules = on-demand
 [submodule "multi_index"]
 	path = libs/multi_index
